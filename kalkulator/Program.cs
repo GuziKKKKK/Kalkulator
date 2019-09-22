@@ -14,12 +14,14 @@ namespace kalkulator
                 Console.WriteLine("3. Mnozenie");
                 Console.WriteLine("4. Dzielenie");
                 Console.WriteLine("5. SQRT");
-                Console.WriteLine("6. Exit");
+                Console.WriteLine("6. Power");
+                Console.WriteLine("7. Exit");
+                
 
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
-                    case 5:
+                    case 7:
                         loop = false;
                         break;
                 }
