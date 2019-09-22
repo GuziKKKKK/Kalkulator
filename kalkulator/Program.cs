@@ -9,15 +9,16 @@ namespace kalkulator
             bool loop = true;
             while(loop)
             {
-                Console.WriteLine("1. Subtract");
-                Console.WriteLine("2. Add");
-                Console.WriteLine("3. Multiplication");
-                Console.WriteLine("4. Exit");
+                Console.WriteLine("1. Dodawanie");
+                Console.WriteLine("2. Odejmowanie");
+                Console.WriteLine("3. Mnozenie");
+                Console.WriteLine("4. Dzielenie");
+                Console.WriteLine("5. Exit");
 
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
-                    case 0:
+                    case 5:
                         loop = false;
                         break;
                 }
