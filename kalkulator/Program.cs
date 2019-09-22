@@ -13,7 +13,8 @@ namespace kalkulator
                 Console.WriteLine("2. Odejmowanie");
                 Console.WriteLine("3. Mnozenie");
                 Console.WriteLine("4. Dzielenie");
-                Console.WriteLine("5. Exit");
+                Console.WriteLine("5. Potegowanie");
+                Console.WriteLine("6. Exit");
 
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
