@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace kalkulator
 {
@@ -10,6 +6,21 @@ namespace kalkulator
     {
         static void Main(string[] args)
         {
+            bool loop = true;
+            while(loop)
+            {
+                Console.WriteLine("0. Exit");
+                Console.WriteLine("1. Dodawanie");
+                Console.WriteLine("2. Odejmowanie");
+
+                int option = Convert.ToInt32(Console.ReadLine());
+                switch (option)
+                {
+                    case 0:
+                        loop = false;
+                        break;
+                }
+            }
         }
     }
 }
